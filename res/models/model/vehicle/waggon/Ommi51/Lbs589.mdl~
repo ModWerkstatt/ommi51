@@ -1,0 +1,1822 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 7.79589, 1.51414, 1.71786, },
+		bbMin = { -7.7958, -1.51413, -0.04514, },
+	},
+	collider = {
+		params = {
+
+		},
+		type = "MESH",
+	},
+	lods = {
+		{
+		    node = {
+			    children = {
+				    {
+                        _meshId = 1,
+					    materials = { "vehicle/waggon/Lbs589/rumpf_lbs589.mtl", },
+					    mesh = "vehicle/waggon/Lbs589/Lbs589_rumpf_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    _meshId = 2,
+					    materials = { "vehicle/waggon/Lbs589/rumpf_lbs589.mtl", },
+					    mesh = "vehicle/waggon/Lbs589/rad_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 0.44624, 1, },
+				    },
+				    {
+					    _meshId = 3,
+					    materials = { "vehicle/waggon/Lbs589/rumpf_lbs589.mtl", },
+					    mesh = "vehicle/waggon/Lbs589/rad_lod0.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 0.44624, 1, },
+				    },
+                    {
+				        _meshId = 4,
+				        materials = { "vehicle/waggon/zugschluss.mtl", },
+				        mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+                        name = "zugschluss_de_front",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6, -1.39, 1.66, 1, },
+			        },
+                    {
+                        _meshId = 5,
+		                materials = { "vehicle/waggon/zugschluss.mtl", },
+				        mesh = "vehicle/waggon/zugschluss/zugschluss_de_back.msh",
+                        name = "zugschluss_de_back",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.6, 1.39, 1.66, 1, },
+			        },
+			    },
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+	        },
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+		},
+		{
+		    node = {
+			    children = {
+				    {
+                        _meshId = 1,
+					    materials = { "vehicle/waggon/Lbs589/rumpf_lbs589.mtl", },
+					    mesh = "vehicle/waggon/Lbs589/Lbs589_rumpf_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+                        _meshId = 2,
+					    materials = { "vehicle/waggon/Lbs589/rumpf_lbs589.mtl", },
+					    mesh = "vehicle/waggon/Lbs589/rad_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 0.44624, 1, },
+				    },
+				    {
+					    _meshId = 3,
+					    materials = { "vehicle/waggon/Lbs589/rumpf_lbs589.mtl", },
+					    mesh = "vehicle/waggon/Lbs589/rad_lod1.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 0.44624, 1, },
+				    },
+			    },
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+	        },
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 400,
+		},
+		{
+		    node = {
+			    children = {
+				    {
+					    _meshId = 1,
+					    materials = { "vehicle/waggon/Lbs589/rumpf_lbs589.mtl", },
+					    mesh = "vehicle/waggon/Lbs589/Lbs589_rumpf_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				    },
+				    {
+					    _meshId = 2,
+					    materials = { "vehicle/waggon/Lbs589/rumpf_lbs589.mtl", },
+					    mesh = "vehicle/waggon/Lbs589/rad_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5, 0, 0.44624, 1, },
+				    },
+				    {
+					    _meshId = 3,
+					    materials = { "vehicle/waggon/Lbs589/rumpf_lbs589.mtl", },
+					    mesh = "vehicle/waggon/Lbs589/rad_lod2.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5, 0, 0.44624, 1, },
+				    },
+			    },
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+	        },
+			static = false,
+			visibleFrom = 400,
+			visibleTo = 1200,
+		},
+	},
+	metadata = {
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		availability = {
+			yearFrom = 1965,
+			yearTo = 1985,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+			name = _("Lbs589_name"),
+			description = _("Lbs589_description"),
+		},
+		maintenance = {
+			lifespan = 29220,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/waggon/Lbs589/rad_lod0.msh", },
+					backBackwardParts = { 5 },
+					backForwardParts = { 4 },
+				},
+                {
+					axles = { "vehicle/waggon/Lbs589/rad_lod1.msh", },
+				},
+                {
+					axles = { "vehicle/waggon/Lbs589/rad_lod2.msh", },
+				},
+			},
+			engines = { },
+			soundSet = { name = "waggon_freight_old", },
+			topSpeed = 22.222222222,
+			weight = 18.8,
+		},
+        cargoSlotProvider = {
+			slots = {
+                {
+					models = {
+						"asset/container_nando/container_40ft/container_40ft_cma.mdl",
+						"asset/container_nando/container_40ft/container_40ft_csx.mdl",
+						"asset/container_nando/container_40ft/container_40ft_dhl.mdl",
+						"asset/container_nando/container_40ft/container_40ft_evergreen.mdl",
+						"asset/container_nando/container_40ft/container_40ft_generic.mdl",
+						"asset/container_nando/container_40ft/container_40ft_hamburg.mdl",
+						"asset/container_nando/container_40ft/container_40ft_hanjin.mdl",
+						"asset/container_nando/container_40ft/container_40ft_hl.mdl",
+						"asset/container_nando/container_40ft/container_40ft_maersk.mdl",
+						"asset/container_nando/container_40ft/container_40ft_maikc.mdl",
+						"asset/container_nando/container_40ft/container_40ft_pacer.mdl",
+						"asset/container_nando/container_40ft/container_40ft_po.mdl",
+						"asset/container_nando/container_40ft/container_40ft_pof.mdl",
+						"asset/container_nando/container_40ft/container_40ft_samskip.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.26, 1, },
+					randomId = 0,
+				},
+                {
+					models = {
+						"asset/container_nando/container_20ft/container_20ft_cma.mdl",
+						"asset/container_nando/container_20ft/container_20ft_csx.mdl",
+						"asset/container_nando/container_20ft/container_20ft_dhl.mdl",
+						"asset/container_nando/container_20ft/container_20ft_evergreen.mdl",
+						"asset/container_nando/container_20ft/container_20ft_generic.mdl",
+						"asset/container_nando/container_20ft/container_20ft_hamburg.mdl",
+						"asset/container_nando/container_20ft/container_20ft_hanjin.mdl",
+						"asset/container_nando/container_20ft/container_20ft_hl.mdl",
+						"asset/container_nando/container_20ft/container_20ft_maersk.mdl",
+						"asset/container_nando/container_20ft/container_20ft_maikc.mdl",
+						"asset/container_nando/container_20ft/container_20ft_pacer.mdl",
+						"asset/container_nando/container_20ft/container_20ft_po.mdl",
+						"asset/container_nando/container_20ft/container_20ft_pof.mdl",
+						"asset/container_nando/container_20ft/container_20ft_samskip.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.08, 0, 1.26, 1, },
+					randomId = 1,
+				},
+                {
+					models = {
+						"asset/container_nando/container_20ft/container_20ft_cma.mdl",
+						"asset/container_nando/container_20ft/container_20ft_csx.mdl",
+						"asset/container_nando/container_20ft/container_20ft_dhl.mdl",
+						"asset/container_nando/container_20ft/container_20ft_evergreen.mdl",
+						"asset/container_nando/container_20ft/container_20ft_generic.mdl",
+						"asset/container_nando/container_20ft/container_20ft_hamburg.mdl",
+						"asset/container_nando/container_20ft/container_20ft_hanjin.mdl",
+						"asset/container_nando/container_20ft/container_20ft_hl.mdl",
+						"asset/container_nando/container_20ft/container_20ft_maersk.mdl",
+						"asset/container_nando/container_20ft/container_20ft_maikc.mdl",
+						"asset/container_nando/container_20ft/container_20ft_pacer.mdl",
+						"asset/container_nando/container_20ft/container_20ft_po.mdl",
+						"asset/container_nando/container_20ft/container_20ft_pof.mdl",
+						"asset/container_nando/container_20ft/container_20ft_samskip.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.08, 0, 1.26, 1, },
+					randomId = 2,
+				},
+                {
+					models = {
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_chevron.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_et.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_generic.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_gulf.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_hoyer.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_maikc.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_stolt.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_sunoco.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_texaco.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.08, 0, 1.26, 1, },
+					randomId = 3,
+				},
+                {
+					models = {
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_chevron.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_et.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_generic.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_gulf.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_hoyer.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_maikc.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_stolt.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_sunoco.mdl",
+						"asset/container_nando/tanktainer_20ft/tanktainer_20ft_texaco.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.08, 0, 1.26, 1, },
+					randomId = 4,
+				},
+                {
+					models = {
+						"asset/container_nando/tanktainer_26ft/tanktainer_26ft_hsft.mdl",
+						"asset/container_nando/tanktainer_26ft/tanktainer_26ft_vdb.mdl",
+						"asset/container_nando/tanktainer_26ft/tanktainer_26ft_vtg.mdl",
+						"asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_hsft.mdl",
+						"asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_vdb.mdl",
+						"asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_vtg.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.26, 1, },
+					randomId = 5,
+				},
+                -- GRAIN, PLASTIC, CONSTRUCTION_MATERIALS
+                {
+					models = {
+						"asset/rollcontainer_db/kugeltank1.mdl",
+                        "asset/rollcontainer_db/Dzkr501_1.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.2, 0, 1.26, 1, },
+					randomId = 6,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/kugeltank1.mdl",
+                        "asset/rollcontainer_db/Dzkr501_1.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6, 0, 1.26, 1, },
+					randomId = 7,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/kugeltank1.mdl",
+                        "asset/rollcontainer_db/Dzkr501_1.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.26, 1, },
+					randomId = 8,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/kugeltank1.mdl",
+                        "asset/rollcontainer_db/Dzkr501_1.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.6, 0, 1.26, 1, },
+					randomId = 9,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/kugeltank1.mdl",
+                        "asset/rollcontainer_db/Dzkr501_1.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.2, 0, 1.26, 1, },
+					randomId = 10,
+				},
+                -- FOOD
+                {
+					models = {
+						"asset/rollcontainer_db/kuehlcontainer1.mdl",
+                        "asset/rollcontainer_db/Ddikr624_1.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.2, 0, 1.26, 1, },
+					randomId = 11,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/kuehlcontainer1.mdl",
+                        "asset/rollcontainer_db/Ddikr624_1.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6, 0, 1.26, 1, },
+					randomId = 12,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/kuehlcontainer1.mdl",
+                        "asset/rollcontainer_db/Ddikr624_1.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.26, 1, },
+					randomId = 13,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/kuehlcontainer1.mdl",
+                        "asset/rollcontainer_db/Ddikr624_1.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.6, 0, 1.26, 1, },
+					randomId = 14,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/kuehlcontainer1.mdl",
+                        "asset/rollcontainer_db/Ddikr624_1.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.2, 0, 1.26, 1, },
+					randomId = 15,
+				},
+                -- TOOLS, GOODS, PLASTIC, CONSTRUCTION_MATERIALS
+                {
+					models = {
+						"asset/rollcontainer_db/Ekrt50_1.mdl",
+                        "asset/rollcontainer_db/Ekrt65_1.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.2, 0, 1.26, 1, },
+					randomId = 16,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Ekrt50_1.mdl",
+                        "asset/rollcontainer_db/Ekrt65_1.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6, 0, 1.26, 1, },
+					randomId = 17,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Ekrt50_1.mdl",
+                        "asset/rollcontainer_db/Ekrt65_1.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.26, 1, },
+					randomId = 18,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Ekrt50_1.mdl",
+                        "asset/rollcontainer_db/Ekrt65_1.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.6, 0, 1.26, 1, },
+					randomId = 19,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Ekrt50_1.mdl",
+                        "asset/rollcontainer_db/Ekrt65_1.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.2, 0, 1.26, 1, },
+					randomId = 20,
+				},
+                -- COAL
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_coal.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_coal.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.2, 0, 1.26, 1, },
+					randomId = 21,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_coal.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_coal.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6, 0, 1.26, 1, },
+					randomId = 22,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_coal.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_coal.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.26, 1, },
+					randomId = 23,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_coal.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_coal.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.6, 0, 1.26, 1, },
+					randomId = 24,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_coal.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_coal.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.2, 0, 1.26, 1, },
+					randomId = 25,
+				},
+                -- IRON_ORE
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_iron.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_iron.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.2, 0, 1.26, 1, },
+					randomId = 26,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_iron.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_iron.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6, 0, 1.26, 1, },
+					randomId = 27,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_iron.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_iron.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.26, 1, },
+					randomId = 28,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_iron.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_iron.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.6, 0, 1.26, 1, },
+					randomId = 29,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_iron.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_iron.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.2, 0, 1.26, 1, },
+					randomId = 30,
+				},
+                -- STONE
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_stone.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_stone.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.2, 0, 1.26, 1, },
+					randomId = 31,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_stone.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_stone.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6, 0, 1.26, 1, },
+					randomId = 32,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_stone.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_stone.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.26, 1, },
+					randomId = 33,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_stone.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_stone.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.6, 0, 1.26, 1, },
+					randomId = 34,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_stone.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_stone.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.2, 0, 1.26, 1, },
+					randomId = 35,
+				},
+                
+                -- GRAIN
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_grain.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_grain.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.2, 0, 1.26, 1, },
+					randomId = 36,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_grain.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_grain.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6, 0, 1.26, 1, },
+					randomId = 37,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_grain.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_grain.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.26, 1, },
+					randomId = 38,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_grain.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_grain.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.6, 0, 1.26, 1, },
+					randomId = 39,
+				},
+                {
+					models = {
+						"asset/rollcontainer_db/Eoskrt021_1_grain.mdl",
+                        "asset/rollcontainer_db/Eoskrt051_1_grain.mdl",
+					},
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.2, 0, 1.26, 1, },
+					randomId = 40,
+				},
+		    },
+        },
+		transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+			    {
+				    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 16 },
+										},
+									},
+                                },
+                            },
+						    type = "GOODS",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 36 },
+										},
+									},
+                                },
+                            },
+						    type = "GRAIN",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 6 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 16 },
+										},
+									},
+                                },
+                            },
+						    type = "CONSTRUCTION_MATERIALS",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 11 },
+										},
+									},
+                                },
+                            },
+						    type = "FOOD",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 16 },
+										},
+									},
+                                },
+                            },
+						    type = "TOOLS",
+					    },
+				    },
+				    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 6 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 16 },
+										},
+									},
+                                },
+                            },
+						    type = "PLASTIC",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 4 },
+											{ 3, 4 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 5 },
+										},
+									},
+                                },
+                            },
+						    type = "OIL",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 4 },
+											{ 3, 4 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 5 },
+										},
+									},
+                                },
+                            },
+						    type = "CRUDE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 3 },
+											{ 3, 4 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 5 },
+										},
+									},
+                                },
+                            },
+						    type = "FUEL",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 36 },
+										},
+									},
+                                },
+                            },
+						    type = "GRAIN",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 26 },
+										},
+									},
+                                },
+                            },
+						    type = "IRON_ORE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 31 },
+										},
+									},
+                                },
+                            },
+						    type = "STONE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 21 },
+										},
+									},
+                                },
+                            },
+						    type = "COAL",
+					    },
+				    },
+			    },
+                -- Comp 2
+                {
+				    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 17 },
+										},
+									},
+                                },
+                            },
+						    type = "GOODS",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 37 },
+										},
+									},
+                                },
+                            },
+						    type = "GRAIN",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 7 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 17 },
+										},
+									},
+                                },
+                            },
+						    type = "CONSTRUCTION_MATERIALS",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 12 },
+										},
+									},
+                                },
+                            },
+						    type = "FOOD",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 17 },
+										},
+									},
+                                },
+                            },
+						    type = "TOOLS",
+					    },
+				    },
+				    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 7 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 17 },
+										},
+									},
+                                },
+                            },
+						    type = "PLASTIC",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 4 },
+											{ 3, 4 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 5 },
+										},
+									},
+                                },
+                            },
+						    type = "OIL",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 4 },
+											{ 3, 4 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 5 },
+										},
+									},
+                                },
+                            },
+						    type = "CRUDE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 3 },
+											{ 3, 4 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 5 },
+										},
+									},
+                                },
+                            },
+						    type = "FUEL",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 37 },
+										},
+									},
+                                },
+                            },
+						    type = "GRAIN",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 27 },
+										},
+									},
+                                },
+                            },
+						    type = "IRON_ORE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 32 },
+										},
+									},
+                                },
+                            },
+						    type = "STONE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 22 },
+										},
+									},
+                                },
+                            },
+						    type = "COAL",
+					    },
+				    },
+			    },
+                -- Comp 3
+                {
+				    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 18 },
+										},
+									},
+                                },
+                            },
+						    type = "GOODS",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 38 },
+										},
+									},
+                                },
+                            },
+						    type = "GRAIN",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 8 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 18 },
+										},
+									},
+                                },
+                            },
+						    type = "CONSTRUCTION_MATERIALS",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 13 },
+										},
+									},
+                                },
+                            },
+						    type = "FOOD",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 18 },
+										},
+									},
+                                },
+                            },
+						    type = "TOOLS",
+					    },
+				    },
+				    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 8 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 18 },
+										},
+									},
+                                },
+                            },
+						    type = "PLASTIC",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 4 },
+											{ 3, 4 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 5 },
+										},
+									},
+                                },
+                            },
+						    type = "OIL",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 4 },
+											{ 3, 4 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 5 },
+										},
+									},
+                                },
+                            },
+						    type = "CRUDE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 3 },
+											{ 3, 4 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 5 },
+										},
+									},
+                                },
+                            },
+						    type = "FUEL",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 38 },
+										},
+									},
+                                },
+                            },
+						    type = "GRAIN",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 28 },
+										},
+									},
+                                },
+                            },
+						    type = "IRON_ORE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 33 },
+										},
+									},
+                                },
+                            },
+						    type = "STONE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 23 },
+										},
+									},
+                                },
+                            },
+						    type = "COAL",
+					    },
+				    },
+			    },
+                -- Comp 4
+                {
+				    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 19 },
+										},
+									},
+                                },
+                            },
+						    type = "GOODS",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 39 },
+										},
+									},
+                                },
+                            },
+						    type = "GRAIN",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 9 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 19 },
+										},
+									},
+                                },
+                            },
+						    type = "CONSTRUCTION_MATERIALS",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 14 },
+										},
+									},
+                                },
+                            },
+						    type = "FOOD",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 19 },
+										},
+									},
+                                },
+                            },
+						    type = "TOOLS",
+					    },
+				    },
+				    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 9 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 19 },
+										},
+									},
+                                },
+                            },
+						    type = "PLASTIC",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 4 },
+											{ 3, 4 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 5 },
+										},
+									},
+                                },
+                            },
+						    type = "OIL",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 4 },
+											{ 3, 4 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 5 },
+										},
+									},
+                                },
+                            },
+						    type = "CRUDE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 3 },
+											{ 3, 4 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 5 },
+										},
+									},
+                                },
+                            },
+						    type = "FUEL",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 39 },
+										},
+									},
+                                },
+                            },
+						    type = "GRAIN",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 29 },
+										},
+									},
+                                },
+                            },
+						    type = "IRON_ORE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 34 },
+										},
+									},
+                                },
+                            },
+						    type = "STONE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 24 },
+										},
+									},
+                                },
+                            },
+						    type = "COAL",
+					    },
+				    },
+			    },
+                -- Comp 5
+                {
+				    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 20 },
+										},
+									},
+                                },
+                            },
+						    type = "GOODS",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 40 },
+										},
+									},
+                                },
+                            },
+						    type = "GRAIN",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 10 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 20 },
+										},
+									},
+                                },
+                            },
+						    type = "CONSTRUCTION_MATERIALS",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 15 },
+										},
+									},
+                                },
+                            },
+						    type = "FOOD",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 20 },
+										},
+									},
+                                },
+                            },
+						    type = "TOOLS",
+					    },
+				    },
+				    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+											{ 10 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 20 },
+										},
+									},
+                                },
+                            },
+						    type = "PLASTIC",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 4 },
+											{ 3, 4 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 5 },
+										},
+									},
+                                },
+                            },
+						    type = "OIL",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 4 },
+											{ 3, 4 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 5 },
+										},
+									},
+                                },
+                            },
+						    type = "CRUDE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 3 },
+											{ 3, 4 },
+										},
+									},
+                                    {
+										slotLevels = {
+                                            { },
+											{ 5 },
+										},
+									},
+                                },
+                            },
+						    type = "FUEL",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 37 },
+										},
+									},
+                                },
+                            },
+						    type = "GRAIN",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 30 },
+										},
+									},
+                                },
+                            },
+						    type = "IRON_ORE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 35 },
+										},
+									},
+                                },
+                            },
+						    type = "STONE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 16,
+                            customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+                                            { },
+                                            { 25 },
+										},
+									},
+                                },
+                            },
+						    type = "COAL",
+					    },
+				    },
+			    },
+		    },
+			loadSpeed = 5,
+			multipleUnitOnly = false,
+			reversible = false,
+            groupFileName = "vehicle/waggon/Lbs589/menu_lbs589.mdl",
+		},
+	},
+	version = 1,
+}
+end

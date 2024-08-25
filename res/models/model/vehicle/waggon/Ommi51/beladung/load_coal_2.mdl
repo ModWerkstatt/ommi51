@@ -1,0 +1,104 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			0.65, 1, 0.6, 
+		},
+		bbMin = {
+			-0.65, -1, 0, 
+		},
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+		
+	},
+	lods = {
+		{
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{						
+						materials = { "vehicle/waggon/coal.mtl", },
+						mesh = "vehicle/waggon/Ommi51/beladung_2_lod0.msh",
+						name = "MSH_ootz_50_beladung_1_lod0_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+			
+		},
+        {
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{						
+						materials = { "vehicle/waggon/coal.mtl", },
+						mesh = "vehicle/waggon/Ommi51/beladung_2_lod0.msh",
+						name = "MSH_ootz_50_beladung_1_lod0_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 500,
+			
+		},
+        {
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{						
+						materials = { "vehicle/waggon/coal.mtl", },
+						mesh = "vehicle/waggon/Ommi51/beladung_2_lod1.msh",
+						name = "MSH_ootz_50_beladung_1_lod0_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,
+			
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1952,
+			yearTo = 0,
+			
+		},
+		cost = {
+			price = 500,
+			
+		},
+		
+	},
+	version = 1,
+	
+}
+end

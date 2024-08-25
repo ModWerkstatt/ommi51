@@ -1,0 +1,782 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 4.5113854408264, 1.3584082126617, 3.7394676208496, },
+		bbMin = { -4.5121550559998, -1.3584079742432, -0.57783353328705, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 4.5117702484131, 1.3584080934525, 2.158650636673, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
+						mesh = "vehicle/waggon/Ommi51/rumpf_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
+						mesh = "vehicle/waggon/Ommi51/rad_lod0.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.34, 0, 0.4692, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
+						mesh = "vehicle/waggon/Ommi51/rad_lod0.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.34, 0, 0.4692, 1, },
+					},
+                    {
+    					_meshId = 4,
+						materials = { "vehicle/waggon/zugschluss.mtl", },
+    					mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+                        name = "zugschluss_de_front",
+    					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.93, -0.85, 1.15, 1,	},
+    				},
+					{
+                        _meshId = 5,
+                        materials = { "vehicle/waggon/zugschluss.mtl", },
+                        mesh = "vehicle/waggon/zugschluss/zugschluss_de_front.msh",
+                        name = "zugschluss_de_front",
+                        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.93, 0.85, 1.15, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+        {
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
+						mesh = "vehicle/waggon/Ommi51/rumpf_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
+						mesh = "vehicle/waggon/Ommi51/rad_lod1.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.34, 0, 0.4692, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
+						mesh = "vehicle/waggon/Ommi51/rad_lod1.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.34, 0, 0.4692, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 500,
+		},
+        {
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
+						mesh = "vehicle/waggon/Ommi51/rumpf_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
+						mesh = "vehicle/waggon/Ommi51/rad_lod2.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.34, 0, 0.4692, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
+						mesh = "vehicle/waggon/Ommi51/rad_lod2.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.34, 0, 0.4692, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1200,
+		},
+	},
+	metadata = {
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		availability = {
+			yearFrom = 1952,
+			yearTo = 1965,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+			name = _("Ommi51_name"),
+			description = _("Ommi51_description"),
+		},
+		maintenance = {
+			lifespan = 29220,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/waggon/Ommi51/rad_lod0.msh", },
+					backForwardParts = { 4, 5, },
+				},
+                {
+					axles = { "vehicle/waggon/Ommi51/rad_lod1.msh", },
+				},
+                {
+					axles = { "vehicle/waggon/Ommi51/rad_lod2.msh", },
+				},
+			},
+			engines = { },
+			soundSet = { name = "waggon_freight_old", },
+			topSpeed = 27.777777778,
+			weight = 12.8,
+		},
+		cargoSlotProvider = {
+			slots = {
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_coal_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_coal_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_coal_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_coal_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_coal_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_coal_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_coal_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_coal_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_coal_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_coal_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_coal_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_coal_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_coal_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_coal_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_coal_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+
+                -- IRON ORE
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_iron_ore_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_iron_ore_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_iron_ore_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_iron_ore_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_iron_ore_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_iron_ore_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_iron_ore_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_iron_ore_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_iron_ore_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_iron_ore_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_iron_ore_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_iron_ore_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_iron_ore_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_iron_ore_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_iron_ore_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+
+                -- STONE
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_stone_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_stone_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_stone_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_stone_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_stone_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_stone_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_stone_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_stone_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_stone_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_stone_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_stone_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_stone_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_stone_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_stone_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_stone_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+
+                -- SILVER ORE
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_silver_ore_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_silver_ore_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_silver_ore_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},				
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_silver_ore_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_silver_ore_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_silver_ore_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},				
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_silver_ore_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_silver_ore_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_silver_ore_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.6476, 1, },
+					randomId = 1,
+				},				
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_silver_ore_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_silver_ore_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_silver_ore_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},				
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_silver_ore_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_silver_ore_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_silver_ore_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},				
+
+                -- SLAG
+                {
+					models = { "vehicle/waggon/Ommi51/beladung/load_slag_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_slag_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_slag_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+                {
+					models = { "vehicle/waggon/Ommi51/beladung/load_slag_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_slag_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_slag_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+                {
+					models = { "vehicle/waggon/Ommi51/beladung/load_slag_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_slag_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_slag_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+                {
+					models = { "vehicle/waggon/Ommi51/beladung/load_slag_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_slag_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_slag_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5615, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+                {
+					models = { "vehicle/waggon/Ommi51/beladung/load_slag_1.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_slag_2.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+				{
+					models = { "vehicle/waggon/Ommi51/beladung/load_slag_3.mdl", },
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.123, 0, 2.6476, 1, },
+					randomId = 1,
+				},
+			},
+		},	 
+		transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+			    {
+                    {
+					    {
+						    capacity = 24,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 0 },
+											{ 1 },	
+											{ 2 },
+											{ 2, 3 },
+											{ 2, 4 },	
+											{ 2, 5 },		
+											{ 2, 5, 6 },
+											{ 2, 5, 7 },	
+											{ 2, 5, 8 },		
+											{ 2, 5, 8, 9 },
+											{ 2, 5, 8, 10 },	
+											{ 2, 5, 8, 11 },		
+											{ 2, 5, 8, 11, 12 },
+											{ 2, 5, 8, 11, 13 },	
+											{ 2, 5, 8, 11, 14 },										
+										},
+									},									
+								},
+							},
+						    type = "COAL",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 24,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 15 },
+											{ 16 },	
+											{ 17 },
+											{ 17, 18 },
+											{ 17, 19 },	
+											{ 17, 20 },		
+											{ 17, 20, 21 },
+											{ 17, 20, 22 },	
+											{ 17, 20, 23 },		
+											{ 17, 20, 23, 24 },
+											{ 17, 20, 23, 25 },	
+											{ 17, 20, 23, 26 },		
+											{ 17, 20, 23, 26, 27 },
+											{ 17, 20, 23, 26, 28 },	
+											{ 17, 20, 23, 26, 29 },										
+										},
+									},									
+								},
+							},
+						    type = "IRON_ORE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 24,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 30 },
+											{ 31 },	
+											{ 32 },
+											{ 32, 33 },
+											{ 32, 34 },	
+											{ 32, 35 },		
+											{ 32, 35, 36 },
+											{ 32, 35, 37 },	
+											{ 32, 35, 38 },		
+											{ 32, 35, 38, 39 },
+											{ 32, 35, 38, 40 },	
+											{ 32, 35, 38, 41 },		
+											{ 32, 35, 38, 41, 42 },
+											{ 32, 35, 38, 41, 43 },	
+											{ 32, 35, 38, 41, 44 },										
+										},
+									},									
+								},
+							},
+						    type = "STONE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 24,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 45 },
+											{ 46 },	
+											{ 47 },
+											{ 47, 48 },
+											{ 47, 49 },	
+											{ 47, 50 },		
+											{ 47, 50, 51 },
+											{ 47, 50, 52 },	
+											{ 47, 50, 53 },		
+											{ 47, 50, 53, 54 },
+											{ 47, 50, 53, 55 },	
+											{ 47, 50, 53, 56 },		
+											{ 47, 50, 53, 56, 57 },
+											{ 47, 50, 53, 56, 58 },	
+											{ 47, 50, 53, 56, 59 },										
+										},
+									},									
+								},
+							},
+						    type = "SILVER_ORE",
+					    },
+				    },
+                    {
+					    {
+						    capacity = 24,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ },
+											{ 60 },
+											{ 61 },	
+											{ 62 },
+											{ 62, 63 },
+											{ 62, 64 },	
+											{ 62, 65 },		
+											{ 62, 65, 66 },
+											{ 62, 65, 67 },	
+											{ 62, 65, 68 },		
+											{ 62, 65, 68, 69 },
+											{ 62, 65, 68, 70 },	
+											{ 62, 65, 68, 71 },		
+											{ 62, 65, 68, 71, 72 },
+											{ 62, 65, 68, 71, 73 },	
+											{ 62, 65, 68, 71, 74 },										
+										},
+									},									
+								},
+							},
+						    type = "SLAG",
+					    },
+				    },
+			    },
+		    },
+			loadSpeed = 5,
+			multipleUnitOnly = false,
+			reversible = false,
+            groupFileName = "vehicle/waggon/Ommi51/menu_Ommi51.mdl",
+		},
+	},
+	version = 1,
+}
+end
