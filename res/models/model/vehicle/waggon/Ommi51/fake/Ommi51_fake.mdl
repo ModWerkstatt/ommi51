@@ -16,19 +16,19 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/waggon/Ommi51/Schotterkies165.mtl", },
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
 						mesh = "vehicle/waggon/Ommi51/rumpf_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Ommi51/Schotterkies165.mtl", },
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
 						mesh = "vehicle/waggon/Ommi51/rad_lod0.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.34, 0, 0.4692, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Ommi51/Schotterkies165.mtl", },
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
 						mesh = "vehicle/waggon/Ommi51/rad_lod0.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.34, 0, 0.4692, 1, },
@@ -55,23 +55,23 @@ return {
 			visibleFrom = 0,
 			visibleTo = 150,
 		},
-		{
+        {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/waggon/Ommi51/Schotterkies165.mtl", },
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
 						mesh = "vehicle/waggon/Ommi51/rumpf_lod1.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Ommi51/Schotterkies165.mtl", },
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
 						mesh = "vehicle/waggon/Ommi51/rad_lod1.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.34, 0, 0.4692, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Ommi51/Schotterkies165.mtl", },
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
 						mesh = "vehicle/waggon/Ommi51/rad_lod1.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.34, 0, 0.4692, 1, },
@@ -82,25 +82,25 @@ return {
 			},
 			static = false,
 			visibleFrom = 150,
-			visibleTo = 400,
+			visibleTo = 500,
 		},
-		{
+        {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/waggon/Ommi51/Schotterkies165.mtl", },
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
 						mesh = "vehicle/waggon/Ommi51/rumpf_lod2.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Ommi51/Schotterkies165.mtl", },
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
 						mesh = "vehicle/waggon/Ommi51/rad_lod2.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.34, 0, 0.4692, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/Ommi51/Schotterkies165.mtl", },
+						materials = { "vehicle/waggon/Ommi51/Ommi51.mtl", },
 						mesh = "vehicle/waggon/Ommi51/rad_lod2.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.34, 0, 0.4692, 1, },
@@ -110,7 +110,7 @@ return {
 				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			},
 			static = false,
-			visibleFrom = 400,
+			visibleFrom = 500,
 			visibleTo = 1200,
 		},
 	},
@@ -121,15 +121,15 @@ return {
 			speedEmission = -1,
 		},
 		availability = {
-			yearFrom = 1991,
-			yearTo = 1994,
+			yearFrom = 1952,
+			yearTo = 1965,
 		},
 		cost = {
 			price = -1,
 		},
 		description = {
-			name = _("Schotterkies165_name"),
-			description = _("Schotterkies165_description"),
+			name = _("Ommi51_name_fake"),
+			description = _("Ommi51_description"),
 		},
 		maintenance = {
 			lifespan = 29220,
@@ -621,152 +621,37 @@ return {
 			    {
                     {
 					    {
-						    capacity = 24,
+						    capacity = 4,
 							customCargoModels = {
 								configurations = {
 									{
 										slotLevels = {
-											{ },
-											{ 0 },
-											{ 1 },	
-											{ 2 },
-											{ 2, 3 },
-											{ 2, 4 },	
-											{ 2, 5 },		
-											{ 2, 5, 6 },
-											{ 2, 5, 7 },	
-											{ 2, 5, 8 },		
-											{ 2, 5, 8, 9 },
-											{ 2, 5, 8, 10 },	
-											{ 2, 5, 8, 11 },		
-											{ 2, 5, 8, 11, 12 },
-											{ 2, 5, 8, 11, 13 },	
 											{ 2, 5, 8, 11, 14 },										
 										},
-									},									
+									},	
+									{
+										slotLevels = {
+											{ 17, 20, 23, 26, 29 },										
+										},
+									},	
+									{
+										slotLevels = {
+											{ 32, 35, 38, 41, 44 },										
+										},
+									},	
+									{
+										slotLevels = {
+											{ 47, 50, 53, 56, 59 },										
+										},
+									},
+									{
+										slotLevels = {
+											{ 62, 65, 68, 71, 74 },										
+										},
+									},							
 								},
 							},
 						    type = "COAL",
-					    },
-				    },
-                    {
-					    {
-						    capacity = 24,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 15 },
-											{ 16 },	
-											{ 17 },
-											{ 17, 18 },
-											{ 17, 19 },	
-											{ 17, 20 },		
-											{ 17, 20, 21 },
-											{ 17, 20, 22 },	
-											{ 17, 20, 23 },		
-											{ 17, 20, 23, 24 },
-											{ 17, 20, 23, 25 },	
-											{ 17, 20, 23, 26 },		
-											{ 17, 20, 23, 26, 27 },
-											{ 17, 20, 23, 26, 28 },	
-											{ 17, 20, 23, 26, 29 },										
-										},
-									},									
-								},
-							},
-						    type = "IRON_ORE",
-					    },
-				    },
-                    {
-					    {
-						    capacity = 24,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 30 },
-											{ 31 },	
-											{ 32 },
-											{ 32, 33 },
-											{ 32, 34 },	
-											{ 32, 35 },		
-											{ 32, 35, 36 },
-											{ 32, 35, 37 },	
-											{ 32, 35, 38 },		
-											{ 32, 35, 38, 39 },
-											{ 32, 35, 38, 40 },	
-											{ 32, 35, 38, 41 },		
-											{ 32, 35, 38, 41, 42 },
-											{ 32, 35, 38, 41, 43 },	
-											{ 32, 35, 38, 41, 44 },										
-										},
-									},									
-								},
-							},
-						    type = "STONE",
-					    },
-				    },
-                    {
-					    {
-						    capacity = 24,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 45 },
-											{ 46 },	
-											{ 47 },
-											{ 47, 48 },
-											{ 47, 49 },	
-											{ 47, 50 },		
-											{ 47, 50, 51 },
-											{ 47, 50, 52 },	
-											{ 47, 50, 53 },		
-											{ 47, 50, 53, 54 },
-											{ 47, 50, 53, 55 },	
-											{ 47, 50, 53, 56 },		
-											{ 47, 50, 53, 56, 57 },
-											{ 47, 50, 53, 56, 58 },	
-											{ 47, 50, 53, 56, 59 },										
-										},
-									},									
-								},
-							},
-						    type = "SILVER_ORE",
-					    },
-				    },
-                    {
-					    {
-						    capacity = 24,
-							customCargoModels = {
-								configurations = {
-									{
-										slotLevels = {
-											{ },
-											{ 60 },
-											{ 61 },	
-											{ 62 },
-											{ 62, 63 },
-											{ 62, 64 },	
-											{ 62, 65 },		
-											{ 62, 65, 66 },
-											{ 62, 65, 67 },	
-											{ 62, 65, 68 },		
-											{ 62, 65, 68, 69 },
-											{ 62, 65, 68, 70 },	
-											{ 62, 65, 68, 71 },		
-											{ 62, 65, 68, 71, 72 },
-											{ 62, 65, 68, 71, 73 },	
-											{ 62, 65, 68, 71, 74 },										
-										},
-									},									
-								},
-							},
-						    type = "SLAG",
 					    },
 				    },
 			    },
@@ -774,7 +659,7 @@ return {
 			loadSpeed = 2,
 			multipleUnitOnly = false,
 			reversible = false,
-            groupFileName = "vehicle/waggon/Ommi51/menu_Ommi51.mdl",
+            groupFileName = "vehicle/waggon/Ommi51/fake/menu_Ommi51_fake.mdl",
 		},
 	},
 	version = 1,

@@ -13,11 +13,26 @@ return {
 		["Fz120_description"] = "From 1965 the former Ommi 51 wagons were redesignated as F-z 120 according to RIV guidelines. The wagons are suitable for bulk goods of various kinds. Its five troughs can be tilted to both sides and can deliver the bulk material directly into trucks or over bunker walls.",
         ["Fz120_DBAG_name"] = "F-z 120 DBAG (1994)",
 		["Fz120_DBAG_description"] = "Many wagons also came to the Deutsche Bahn AG and were still in the stock until 2004. The wagons are suitable for bulk goods of various kinds. Its five troughs can be tilted to either side and can deliver the bulk material directly into trucks or over bunker walls.",
-        ["Ballast Gravel165_name"] = "Schotter-Kies 165 (1991).",
+        ["Ballast Gravel165_name"] = "SBallast Gravel 165 (1991)",
 		["Schotterkies165_description"] = "From 1991, 400 F-z 120s are re-designated as service freight wagons and given the designation Schotter-Kies 165. In 1995, most of these wagons return to the regular wagon fleet. The wagons are suitable for bulk goods of various kinds. Its five troughs can be tilted to either side and can deliver the bulk material directly into trucks or over bunker walls.",
-        ["Schotterkies165_DBAG_name"] = "Schotter-Kies 165 DBAG (1994).",
+        ["Schotterkies165_DBAG_name"] = "Ballast Gravel 165 DBAG (1994)",
 		["Schotterkies165_DBAG_description"] = "From 1991, 400 F-z 120s are re-designated as service freight wagons and given the designation Schotter-Kies 165. From 1994, Deutsche Bahn AG took over the wagons. In 1995, most of these wagons return to the regular wagon fleet. The wagons are suitable for bulk goods of various kinds. Its five troughs can be tilted to both sides and can discharge the bulk material directly into trucks or over bunker walls",
 
+        ["Fake_ommiwagen"] = "Activate Ommi 51 cars fake versions?",
+        ["option_fake_ommiwagen_desc"] = "Should the fake versions of the Ommi 51 cars be available in the game?",
+		
+		["sound_check"] = "Activate custom sound?",
+		["option_sound_check"] = "Should the extra sound be activated?",
+		
+		--- Fake ---
+		
+        ["Ommi51_menu_fake"] = "Two-axle dump truck Fake",
+
+		["Ommi51_name_fake"] = "Ommi 51 (1952) Fake",
+		["Fz120_name_fake"] = "F-z 120 (1965) Fake",
+		["Fz120_DBAG_name_fake"] = "F-z 120 DBAG (1994) Fake",
+		["Schotterkies165_name_fake"] = "Ballast Gravel 165(1991) Fake",
+		["Schotterkies165_DBAG_name_fake"] = "Ballast Gravel 165 DBAG (1994) Fake",
 	},
 	de = {
 
@@ -37,6 +52,21 @@ return {
         ["Schotterkies165_DBAG_name"] = "Schotter-Kies 165 DBAG (1994)",
 		["Schotterkies165_DBAG_description"] = "Ab 1991 werden 400 F-z 120 zu Dienstgüterwagen umgezeichnet und erhalten die Bezeichnung Schotter-Kies 165. Ab 1994 übernahm die Deutsche Bahn AG die Wagen. 1995 kehren diese Wagen überwiegend in den regulären Wagenpark zurück. Die Wagen eignen sich für Schüttgüter verschiedener Art. Seine fünf Mulden sind nach beiden Seiten kippbar und können das Schüttgut direkt in LKW oder über Bunkermauern hinweg abgeben.",
 
+        ["Fake_ommiwagen"] = "Ommi 51 Fake-Versionen aktivieren?",
+        ["option_fake_ommiwagen_desc"] = "Sollen die Fake-Versionen der Ommi 51 verfügbar sein im Spiel?",
+
+		["sound_check"] = "Eigenes Soundset aktivieren?",
+		["option_sound_check"] = "Soll der extra Sound aktiviert sein?",
+		
+		--- Fake ---
+		
+        ["Ommi51_menu_fake"] = "Zweiachsiger Muldenkippwagen Fake",
+
+		["Ommi51_name_fake"] = "Ommi 51 (1952) Fake",
+		["Fz120_name_fake"] = "F-z 120 (1965) Fake",
+		["Fz120_DBAG_name_fake"] = "F-z 120 DBAG (1994) Fake",
+		["Schotterkies165_name_fake"] = "Schotter-Kies 165 (1991) Fake",
+		["Schotterkies165_DBAG_name_fake"] = "Schotter-Kies 165 DBAG (1994) Fake",
 	},
 }
 end
